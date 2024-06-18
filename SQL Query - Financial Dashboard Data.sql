@@ -81,7 +81,7 @@ SET datestyle TO 'ISO, DMY';
 
 -- 4. Insert additional data into SQL, using same COPY function
 
--- copy additional data (week-53) in cc_detail table
+-- copy additional data in cc_detail table
 
 COPY cc_detail
 FROM 'D:\cc_add.csv' 
@@ -89,7 +89,7 @@ DELIMITER ','
 CSV HEADER;
 
 
--- copy additional data (week-53) in cust_detail table (remember to update the file name and file location in below query)
+-- copy additional data in cust_detail table (remember to update the file name and file location in below query)
 
 COPY cust_detail
 FROM 'D:\cust_add.csv' 
